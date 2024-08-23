@@ -21,6 +21,8 @@ urlpatterns = [
             'delete': 'destroy'
         })
     ),
+
+
     path(
         'doctor/<int:id>/patient/',
         DoctorView.as_view({
